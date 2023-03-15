@@ -1,0 +1,73 @@
+.form-bg
+{
+    
+}
+.form-control{
+   //color: black !important; //color changes based on system mode appearance
+}
+.btn
+{
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+
+.right
+{
+    background-color: #3a6f9231;
+}
+
+@media (min-width: 1024px) { 
+    .backdrop
+    {
+        background-image: url('https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: whitesmoke;
+    
+    }
+    .hero
+    {
+        transition: 300ms;
+        backdrop-filter: blur(100px);
+     
+    }
+    h1
+    {font-size: 48px;}
+
+    .left
+    {
+        display: flex;
+
+    }
+    .right
+    {
+        background-color: #22253675;
+    }
+
+    .input{
+        background-color:#50577e6b ;
+        border: none;
+        &::placeholder
+        {
+            font-weight: 200;
+            font-size: 15px;
+        }
+    }
+    .sign-up
+    {
+        display: block;
+    }
+    .btn{
+        width: 150px;
+    }
+    .logo
+    {
+        display: block;
+    }
+   
+
+}
