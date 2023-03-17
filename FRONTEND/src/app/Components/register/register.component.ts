@@ -22,18 +22,18 @@ export class RegisterComponent {
   }
 
 
-  // registerForm1 = new FormGroup({
-  //   email: new FormContro1(),
-  //   name: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
-  //   surname: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
-  //   password: new FormControl(),
-  //   account: new FormControl(),
-  //   confirmPassword: new FormControl()
-  // })
+  registerForm1 = new FormGroup({
+    email: new FormContro1(),
+    name: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
+    surname: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
+    password: new FormControl(),
+    account: new FormControl(),
+    confirmPassword: new FormControl()
+  })
 
   
 
-  // constructor(private authService : AuthService, private router: Route) { }
+  constructor(private authService : AuthService, private router: Route) { }
 
   ngOnInit(): void {
   }
